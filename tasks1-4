@@ -1,0 +1,31 @@
+
+a = int(input('input a number'))
+if a % 5 == 0 and a % 2 == 0:
+    print (a, 'is divided by 10 without a reminder')
+else:
+    print (a, 'is not divided by 10')
+
+
+
+a = int(input('input a number'))
+if a == 0 or a== 1:
+    print (a, 'is 0 or 1')
+else:
+    if a == -1:
+        print (a, 'is -1')
+    else:
+        print (a, 'is an unknown number')
+
+
+
+a = int(input('input a number'))
+if (a > 10) and (a % 10) != 0 :
+    print (a % 10, 'is ahadot')
+
+
+a = int(input('input a number'))
+ahadot = a % 10
+asarot = a // 10
+if (ahadot = asarot) :
+    print ('in', a, 'ahadot = asarot')
+
